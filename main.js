@@ -1,11 +1,11 @@
 const gooza=document.getElementById("kul");
 
 function randomNumber(){
-    Math.floor(Math.random()*77)+1;
+    return Math.floor(Math.random()*77)+1;
 }
 
 function shuffleDeck(){
-const fiveCards=document.getElementById("rac");
+let fiveCards=document.getElementById("rac");
 fiveCards.innerHTML="";
 
     for(let i=0;i<5;i++){

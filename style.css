@@ -1,3 +1,14 @@
-#mops img{height:300px;width:230px};
-#rac{display:flex};
-cardImg{height:300px;width:230px}
+#mops{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+padding:10px;
+}
+
+#rac img{display:block;
+    margin:0 auto;
+    padding:10px;
+}
+
+
+
